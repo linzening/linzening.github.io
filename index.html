@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站登录</title>
+    <style>
+body{
+    background-color: cadetblue;
+}
+@media screen and (max-width: 5000px) {
+    .container0{
+        width: 40%;
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 2600px) {
+    .container0{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container0{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+.btn-div {
+    margin-top: 60px;
+    line-height: 45px;
+    min-width: 300px;
+}
+.search-box {
+    position: relative;
+    display: block;
+    padding: 3px 0;
+    height: 34px;
+    background-color: #f4f4f4;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    width: 100%;
+}
+#keywords {
+    background-color: #f4f4f4;
+    margin: 0;
+    border: 0;
+    outline: none;
+    line-height: 32px;
+    font-size: 14px;
+    padding-left: 15px;
+    position: relative;
+    display: block;
+    height: 32px;
+    border-radius: 5px;
+    background-size: 18px;
+    width: 100%;
+}
+.search-btn_new {
+    width: 60px;
+    line-height: 33px;
+    height: 33px;
+    border-radius: 5px;
+    background-size: 18px;
+    background-color: rgba(255, 129, 58, 1);
+    text-align: center;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div class="container0">
+        <div class="btn-div">
+            <div class="search-box">
+                <div style="float:left;width:75%;">
+                    <input id="keywords" name="keywords" placeholder="请输入密码">
+                </div>
+                <div style="float:right;margin-right:3px;cursor:pointer;" class="search-btn_new">登录</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
